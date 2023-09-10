@@ -1,0 +1,21 @@
+@use "./style/scss/mixing" as *;
+@use "./style/scss/layout" as *;
+* {
+    font: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    .container {
+        height: inherit;
+        @include center-flex;
+    }
+}

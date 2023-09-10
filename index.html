@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/main.min.css">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="mini-card">
+                <h1>Your Result</h1>
+                <p class="count"><span>76</span>of 100</p>
+                <h3>Great</h3>
+                <p class="txt">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+            <div class="details">
+                <h2>Summary</h2>
+                <ul>
+                    <li dataColor="hsl(0, 100%, 67%)" type="Reaction">
+                        <img src alt="" class="icon">
+                        <h5></h5>
+                        <p><span></span> / 100</p>
+                    </li>
+                    <li dataColor="hsl(39, 100%, 56%)" type="Memory">
+                        <img src alt="" class="icon">
+                        <h5></h5>
+                        <p><span></span> / 100</p>
+                    </li>
+                    <li dataColor="hsl(166, 100%, 37%)" type="Verbal">
+                        <img src alt="" class="icon">
+                        <h5></h5>
+                        <p><span></span> / 100</p>
+                    </li>
+                    <li dataColor="hsl(234, 85%, 45%)" type="Visual">
+                        <img src alt="" class="icon">
+                        <h5></h5>
+                        <p><span></span> / 100</p>
+                    </li>
+                </ul>
+                <div class="btn">Continue</div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

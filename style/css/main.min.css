@@ -1,0 +1,168 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0.5rem 1rem 3rem hsl(224, 30%, 27%), 0.2;
+          box-shadow: 0.5rem 1rem 3rem hsl(224, 30%, 27%), 0.2;
+}
+@media (max-width: 767px) {
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+}
+.card > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.card .mini-card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(10%, hsl(252, 100%, 67%)), to(hsl(241, 81%, 54%)));
+  background: linear-gradient(to bottom left, hsl(252, 100%, 67%) 10%, hsl(241, 81%, 54%) 100%);
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+@media (max-width: 767px) {
+  .card .mini-card {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+.card .mini-card h1 {
+  margin-bottom: 2rem;
+}
+.card .mini-card .count {
+  padding: 2rem;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, right top, left bottom, from(hsl(256, 72%, 46%)), to(hsla(241, 72%, 46%, 0)));
+  background: linear-gradient(to bottom left, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+.card .mini-card .count span {
+  font-size: 4rem;
+}
+.card .mini-card h3 {
+  margin-top: 2rem;
+}
+.card .mini-card P {
+  color: hsl(241, 100%, 89%);
+}
+.card .mini-card span {
+  color: white;
+}
+.card .details {
+  padding: 1rem 2rem;
+}
+.card .details h2 {
+  margin-bottom: 1rem;
+}
+@media (max-width: 576px) {
+  .card .details h2 {
+    margin: 1.5rem 0;
+  }
+}
+.card .details ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.card .details ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+}
+@media (max-width: 576px) {
+  .card .details ul li {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+}
+.card .details ul li h5 {
+  margin: 0 0 0 0.5rem;
+}
+.card .details ul li p {
+  margin: 0 0 0 auto;
+}
+.card .details ul li p span {
+  font-weight: 800;
+}
+.card .details .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 1.5rem;
+  margin: 1.5rem 0 0;
+}
+.card .details .btn:hover {
+  background-color: hsl(241, 81%, 54%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+* {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+}
+body .container {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=main.min.css.map */
