@@ -1,4 +1,4 @@
-fetch("../date/data.json")
+fetch("/date/data.json")
     .then((result) => {
         const myData = result.json();
         return myData;
